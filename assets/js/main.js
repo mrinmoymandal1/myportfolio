@@ -254,16 +254,3 @@
   new PureCounter();
 
 })()
-
-
-function changeText(text) {
-  document.getElementById('resumebtn').textContent = text;
-}
-
-function downloadFile() {
-  var link = document.createElement('a');
-  link.href = 'assets/cv.pdf';
-  link.download = 'cv.pdf';
-  link.target = '_blank';
-  link.click();
-}
